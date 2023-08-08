@@ -1,0 +1,4 @@
+name: "ResourcePacker"
+api-version: 1.19
+main: "com.rokucraft.resourcepacker.ResourcePacker"
+version: '${version}'

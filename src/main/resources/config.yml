@@ -1,0 +1,11 @@
+# An HTTP endpoint returning a JSON object in the following form:
+#  {
+#    "key": "pack-1.0.zip",
+#    "sha1": "7df49aff637c23605b60c18ff38d10df293fb784"
+#  }
+data-provider: https://example.com/
+
+# The base URL to form the resource pack download link sent to the client.
+# The resulting url will be formed by appending the provided key to the base URL,
+# e.g. https://example.com/pack-1.0.zip
+base-url: https://example.com/
